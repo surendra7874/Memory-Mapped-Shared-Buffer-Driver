@@ -4,6 +4,7 @@ A Linux character device driver demonstrating efficient user-space and kernel-sp
 **Key Features**
 
 Custom Linux Character Driver: Implements a character device interface for user-space communication.
+
 Shared Memory Mapping: Uses the driver's mmap() file operation to map kernel-allocated memory into user space.
 Kernel Memory Management: Demonstrates kernel memory allocation and mapping using APIs such as vmalloc_user() and remap_vmalloc_range().
 User-Space Application: Interacts with the driver through a memory-mapped buffer.
